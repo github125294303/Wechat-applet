@@ -1,0 +1,116 @@
+
+.cart-box{
+    padding-bottom: 100rpx;
+}
+.cart-list{
+    position: relative;
+    padding: 20rpx 20rpx 20rpx 285rpx;
+    height: 185rpx;
+    border-bottom: 1rpx solid #e9e9e9;
+}
+.cart-list .cart-pro-select{
+    position: absolute;
+    left: 20rpx;
+    top: 90rpx;
+    width: 45rpx;
+    height: 45rpx;
+}
+
+.cart-list .cart-thumb{
+    position: absolute;
+    top: 20rpx;
+    left: 85rpx;
+    width: 185rpx;
+    height: 185rpx;
+}
+.cart-list .cart-pro-name{
+    width: 300rpx;
+    height: 105rpx;
+    line-height: 70rpx;
+    color:darkolivegreen;
+    overflow: hidden;
+}
+.cart-list .cart-pro-price{
+  display: block;
+    color: red;
+    height: 105rpx;
+    line-height: 50rpx;
+}
+.cart-list .cart-count-box{
+    position: absolute;
+    margin-left:150rpx;
+    border: 1px solid #000;
+        line-height: 70rpx;
+    bottom: 20rpx;
+    width: auto;
+    height: 70rpx;
+}
+.cart-list .cart-count-box text{
+    display: inline-block;
+    text-align: center;
+}
+.cart-count-down{
+    font-size: 44rpx;
+    width: 50rpx;
+    border-right: 1px solid #000;
+    height: 100%;
+}
+.cart-count-add{
+  font-size: 44rpx;
+    width: 50rpx;
+    border-left: 1px solid #000;
+    height: 100%;
+}
+.cart-count-num{
+    width: 150rpx;
+}
+.cart-del{
+    position: absolute;
+    right: 20rpx;
+    width: 80rpx;
+    height: 80rpx;
+    text-align: center;
+    font-size: 50rpx;
+    z-index: 100;
+}
+.cart-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90rpx;
+    line-height: 90rpx;
+    padding:0 100rpx 0 80rpx;
+    box-sizing: border-box;
+    background: #A555FF;
+    color: #fff;
+}
+.total-select{
+    position: absolute;
+    left: 20rpx;
+    top: 25rpx;
+    width: 45rpx;
+    height: 45rpx;
+}
+.order-icon{
+    position: absolute;
+    right: 40rpx;
+    top: 25rpx;
+    width: 50rpx;
+    height: 45rpx;
+}
+.order-icon image,.order-icon navigator{
+  display: block;
+  width: 50rpx;
+  height: 45rpx;
+}
+.cart-toatl-price{
+   margin-left:170rpx;
+    width: 120rpx;
+}
+
+.cart-no-data{
+    padding:40rpx 0;
+    color: #999;
+    text-align: center;
+}

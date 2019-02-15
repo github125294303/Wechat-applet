@@ -1,0 +1,20 @@
+<view class="main">
+  <view class="banner">
+    <image src="/image/list1.jpg"></image>
+  </view>
+  <view class="list1-box">
+    <view class="list1" wx:for="{{logs}}" wx:key='index'>
+      <navigator url="../details/details?id={{item.id}}">
+        <image src="{{item.img}}"></image>
+        <view class="list1-text">
+          <text>{{item.titleTxt}}</text>
+        </view>
+        <view class="list1-text">
+          <text style='color:red;'>{{item.picTxt}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view wx:if="{{flag}}" style="text-align: center;font-size:40rpx;color:#abcdef;">{{text}}</view>
+</view>
+

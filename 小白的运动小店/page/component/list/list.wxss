@@ -1,0 +1,28 @@
+
+.banner image{
+    width: 100%;
+    height: 400rpx;
+}
+.list1-box{
+    padding:0 40rpx;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list1{
+    display: inline-block;
+    width: 325rpx;
+    height: 325rpx;
+    margin-bottom: 20rpx;
+    border-radius: 10px;
+    text-align: center;
+    background: #f5f6f5;
+}
+.list1-box .list1 image{
+    width: 175rpx;
+    height: 175rpx;
+    margin: 20rpx 0 10rpx;
+}
+.list1-box .list1 .list1-text{
+    font-size: 32rpx;
+}

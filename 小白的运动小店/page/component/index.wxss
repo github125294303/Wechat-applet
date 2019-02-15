@@ -1,0 +1,72 @@
+/* pages/component/index.wxss */
+swiper {
+  height: 360.5rpx;
+}
+
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+
+.select-title {
+  width: 100%;
+  padding: 30rpx 0;
+  height: 40rpx;
+  color: #3d9eb7;
+  text-align: center;
+}
+
+.newest-title {
+  width: 100%;
+  padding: 30rpx 0;
+  height: 40rpx;
+  color: red;
+  text-align: center;
+}
+
+.select-top-small {
+  width: 374rpx;
+  box-sizing: border-box;
+  border: 2rpx solid #000;
+  height: 365rpx;
+  float: left;
+}
+
+.select-bottom, .select-top {
+  width: 100%;
+  height: 375rpx;
+}
+
+.select-top-small image, .select-bottom image, .select-top-small navigator,
+.select-bottom navigator {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.newest-box {
+  padding: 0 40rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.newest-list {
+  display: inline-block;
+  width: 325rpx;
+  height: 325rpx;
+  margin-bottom: 20rpx;
+  border-radius: 10px;
+  text-align: center;
+  background: #f5f6f5;
+}
+
+.newest-box .newest-list image {
+  width: 175rpx;
+  height: 175rpx;
+  margin: 20rpx 0 10rpx;
+}
+
+.newest-box .newest-list .newest-text {
+  font-size: 32rpx;
+}
